@@ -10,3 +10,4 @@ import sys
 def bkup():
     sys.stdout = open('db.json', 'w')
     call_command('dumpdata', 'task3')
+    return "heyyyyyyyyyyyyyy"
